@@ -23,13 +23,8 @@ int32_t main()
     int n;
     cin>>n;
     int ar[n];
-    char ch;
     for(int i=0 ; i<n ; ++i)
-    {
         cin>>ar[i];
-        cin>>ch ;
-
-    }
 
     cout<<max(solve(ar,0,n-2),solve(ar,1,n-1));
 
